@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"c9a56738ab772d12","x":-125,"y":-80,"width":250,"height":110,"type":"text","text":"Декомпозиция приложения на составляющие"},
+		{"id":"945121bb13d2cafc","x":-125,"y":81,"width":250,"height":60,"type":"text","text":"Идентификация угроз"},
+		{"id":"91574351f89a4b26","x":-125,"y":191,"width":250,"height":60,"type":"text","text":"Построение деревьев угроз"},
+		{"id":"6b462d6f6c2c70ad","x":-124,"y":325,"width":250,"height":60,"type":"text","text":"Ранжирование угроз"},
+		{"id":"70d63224ff5f073f","x":-125,"y":451,"width":251,"height":89,"type":"text","text":"Выработка мер противодействия угрозам"}
+	],
+	"edges":[
+		{"id":"2b46415a014595dd","fromNode":"c9a56738ab772d12","fromSide":"bottom","toNode":"945121bb13d2cafc","toSide":"top"},
+		{"id":"94fc2448c74c2ca1","fromNode":"945121bb13d2cafc","fromSide":"bottom","toNode":"91574351f89a4b26","toSide":"top"},
+		{"id":"2bcfa9bce617f8b4","fromNode":"91574351f89a4b26","fromSide":"bottom","toNode":"6b462d6f6c2c70ad","toSide":"top"},
+		{"id":"4f06d48124d3995f","fromNode":"6b462d6f6c2c70ad","fromSide":"bottom","toNode":"70d63224ff5f073f","toSide":"top"}
+	]
+}

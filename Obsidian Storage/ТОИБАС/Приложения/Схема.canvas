@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"e57fe9a38bdc0038","type":"text","text":"Математические методы обеспечения иб\n- Криптография\n- Машинное обучение","x":-40,"y":180,"width":250,"height":160},
+		{"id":"374d85881c839696","type":"text","text":"Математические методы обеспечения иб\n- Криптография\n- Машинное обучение","x":-680,"y":180,"width":360,"height":460},
+		{"id":"f244e1c835ea2154","type":"text","text":"Методы обеспечения иб","x":-360,"y":-40,"width":250,"height":50},
+		{"id":"ed67bee07c9d2539","type":"text","text":"Математические методы обеспечения иб\n- Криптография\n- Машинное обучение","x":-290,"y":250,"width":250,"height":160}
+	],
+	"edges":[
+		{"id":"573aa768bf09ca16","fromNode":"f244e1c835ea2154","fromSide":"bottom","toNode":"e57fe9a38bdc0038","toSide":"top"},
+		{"id":"56b27c3e35fb33fa","fromNode":"f244e1c835ea2154","fromSide":"bottom","toNode":"ed67bee07c9d2539","toSide":"top"},
+		{"id":"8562828c49be2638","fromNode":"f244e1c835ea2154","fromSide":"bottom","toNode":"374d85881c839696","toSide":"top"}
+	]
+}
